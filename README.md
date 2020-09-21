@@ -55,12 +55,12 @@ git remote add -f mydocker git@github.com:mjkresslein/MyBaseDocker.git
 git merge -s ours --no-commit --allow-unrelated-histories mydocker/master
 ````
 ````
-Automatic merge went well; stopped before committing as requested
+    Automatic merge went well; stopped before committing as requested
 ````
 ````
 git read-tree --prefix=mydocker/ -u mydocker/master
 git commit -m "subtree merged in mydocker"
 ````
 ````
-[master 1ad2474] subtree merged in mydocker
+    [master 1ad2474] subtree merged in mydocker
 ````
